@@ -4,7 +4,7 @@
       <div v-for="item in 4" :key="`out${item}`">
       </div>
     </div>
-    <h3 class="title" v-if="$frontmatter.home">Welcome <br class="show-line">{{$site.title || $localeConfig.title}}</h3>
+    <h3 class="title" v-if="$frontmatter.home">{{$site.title || $localeConfig.title}}</h3>
     <p class="description">Just wait a minute!</p>
   </div>
 </template>
@@ -60,20 +60,14 @@
         top:25px;
         left:100px;
   .title
-    margin 12% auto 6%
+    margin 8rem auto 2rem
     text-align center
     color $textColor
     color var(--text-color)
     font-size 30px
     box-sizing: border-box;
     padding: 0 10px;
-    text-shadow 0 2px 10px rgba(0,0,0,0.2);
-    .show-line
-      display none
-      @media (max-width: $MQNarrow)
-        display block
-      @media (max-width: $MQMobile)
-        display block
+    text-shadow 0 2px 10px rgba(0,0,0,0.2)
   .description
     margin auto
     text-align center
