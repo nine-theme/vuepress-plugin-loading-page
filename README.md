@@ -7,7 +7,7 @@
 
 ## Details
 
-> Loading page plugin for vuepress-theme-reco or other vuepress theme.
+> Loading page plugin for vuepress
 
 |使用位置|值|
 |-|-|
