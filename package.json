@@ -1,0 +1,28 @@
+{
+  "name": "@nines/vuepress-plugin-loading-page",
+  "version": "0.0.1",
+  "description": "vuepress' Loading page plugin for vuepress",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "eslint --fix --ext .js,.vue ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NineSwordsMonster/vuepress-plugin-loading-page.git"
+  },
+  "keywords": [
+    "vuepress",
+    "loading-page"
+  ],
+  "author": "wangjia_1919@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NineSwordsMonster/vuepress-plugin-loading-page/issues"
+  },
+  "homepage": "https://github.com/NineSwordsMonster/vuepress-plugin-loading-page#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
