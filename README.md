@@ -5,11 +5,19 @@
 ![npm (scoped)](https://img.shields.io/npm/v/@nines/vuepress-plugin-loading-page)
 ![npm](https://img.shields.io/npm/dt/@nines/vuepress-plugin-loading-page)
 
-## Details
-
 > Loading page plugin for vuepress
+
+## 使用
 
 |使用位置|值|
 |-|-|
 |plugin name|@nines/vuepress-plugin-loading-page|
 |component name|LoadingPage（主题开发时使用）|
+
+```sh
+npm install @nines/vuepress-plugin-ga
+```
+
+```vue
+<LoadingPage ></LoadingPage>
+```
