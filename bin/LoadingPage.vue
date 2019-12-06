@@ -5,7 +5,7 @@
       </div>
     </div>
     <h3 class="title" v-if="$frontmatter.home">{{$site.title || $localeConfig.title}}</h3>
-    <p class="description">Just wait a minute!</p>
+    <p class="description" v-if="$frontmatter.home">{{$site.description || $localeConfig.description}}</p>
   </div>
 </template>
 
