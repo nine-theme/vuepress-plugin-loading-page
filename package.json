@@ -1,6 +1,6 @@
 {
   "name": "@nines/vuepress-plugin-loading-page",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "vuepress' Loading page plugin for vuepress",
   "main": "index.js",
   "scripts": {
