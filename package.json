@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ninr-theme/vuepress-plugin-loading-page.git"
+    "url": "git+ssh://git@github.com/nine-theme/vuepress-plugin-loading-page.git"
   },
   "keywords": [
     "vuepress",
@@ -17,9 +17,9 @@
   "author": "wangjia_1919@163.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ninr-theme/vuepress-plugin-loading-page/issues"
+    "url": "https://github.com/nine-theme/vuepress-plugin-loading-page/issues"
   },
-  "homepage": "https://github.com/ninr-theme/vuepress-plugin-loading-page#readme",
+  "homepage": "https://github.com/nine-theme/vuepress-plugin-loading-page#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.4.0",
