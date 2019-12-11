@@ -1,5 +1,5 @@
 {
-  "name": "@nines/vuepress-plugin-loading-page",
+  "name": "@nine-theme/vuepress-plugin-loading-page",
   "version": "0.0.5",
   "description": "vuepress' Loading page plugin for vuepress",
   "main": "index.js",
@@ -10,11 +10,14 @@
     "type": "git",
     "url": "git+ssh://git@github.com/nine-theme/vuepress-plugin-loading-page.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/nine-theme"
+  },
   "keywords": [
     "vuepress",
     "loading-page"
   ],
-  "author": "wangjia_1919@163.com",
+  "author": "NineSwordsMonster",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nine-theme/vuepress-plugin-loading-page/issues"
