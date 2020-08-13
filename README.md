@@ -15,7 +15,7 @@
 |component name|LoadingPage（主题开发时使用）|
 
 ```sh
-npm install @nines/vuepress-plugin-ga
+npm install @nines/vuepress-plugin-loading-page
 ```
 
 ```vue
