@@ -6,10 +6,6 @@
   "scripts": {
     "lint:fix": "eslint --fix --ext .js,.vue ./"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/nine-theme/vuepress-plugin-loading-page.git"
-  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/nine-theme"
   },
