@@ -6,9 +6,6 @@
   "scripts": {
     "lint:fix": "eslint --fix --ext .js,.vue ./"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/nine-theme"
-  },
   "keywords": [
     "vuepress",
     "loading-page"
