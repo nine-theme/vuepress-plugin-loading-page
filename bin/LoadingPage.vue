@@ -21,14 +21,14 @@
   background var(--background-color)
   .loader-main
     position:fixed;
-    width:120px;
     height:50px;
     top:45%;
     left:50%;
     z-index:555;
     transform:translate(-50%,0);
     span[class*="l-"] {
-      height: 24px; width: 34px;
+      height: 24px;
+      width: 24px;
       background: #3eaf7c;
       display: inline-block;
       margin: 12px 2px;
