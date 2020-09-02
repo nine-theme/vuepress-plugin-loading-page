@@ -11,11 +11,11 @@
 
 |使用位置|值|
 |-|-|
-|plugin name|@nines/vuepress-plugin-loading-page|
+|plugin name|@nine-theme/vuepress-plugin-loading-page|
 |component name|LoadingPage（主题开发时使用）|
 
 ```sh
-npm install @nines/vuepress-plugin-loading-page
+npm install @nine-theme/vuepress-plugin-loading-page
 ```
 
 ```vue
