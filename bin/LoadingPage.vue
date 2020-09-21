@@ -1,15 +1,25 @@
 <template>
   <div id="loader-wrapper">
     <div class="loader-main">
-      <span class="l-1"></span>
-      <span class="l-2"></span>
-      <span class="l-3"></span>
-      <span class="l-4"></span>
-      <span class="l-5"></span>
-      <span class="l-6"></span>
+      <span class="l-1" />
+      <span class="l-2" />
+      <span class="l-3" />
+      <span class="l-4" />
+      <span class="l-5" />
+      <span class="l-6" />
     </div>
-    <h3 class="title" v-if="$frontmatter.home">{{$site.title || $localeConfig.title}}</h3>
-    <p class="description" v-if="$frontmatter.home">{{$site.description || $localeConfig.description}}</p>
+    <h3
+      v-if="$frontmatter.home"
+      class="title"
+    >
+      {{ $site.title || $localeConfig.title }}
+    </h3>
+    <p
+      v-if="$frontmatter.home"
+      class="description"
+    >
+      {{ $site.description || $localeConfig.description }}
+    </p>
   </div>
 </template>
 
