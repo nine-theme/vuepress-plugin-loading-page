@@ -1,6 +1,6 @@
 {
   "name": "@nine-theme/vuepress-plugin-loading-page",
-  "version": "0.0.8",
+  "version": "0.0.9-alpha.0",
   "description": "vuepress' Loading page plugin for vuepress",
   "main": "index.js",
   "scripts": {
